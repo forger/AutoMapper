@@ -63,7 +63,7 @@ namespace AutoMapper
     {
         void FromMember(string sourcePropertyName);
     }
-    
+
     public interface IResolverConfigurationExpression : IResolutionExpression
     {
         IResolutionExpression ConstructedBy(Func<IValueResolver> constructor);
